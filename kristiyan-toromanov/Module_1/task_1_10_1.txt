@@ -1,0 +1,7 @@
+This is a simple graph and there are 3 paths between Nodes A and D.
+
+Namely:
+
+A -> D
+A -> B -> D
+A -> C -> B -> D

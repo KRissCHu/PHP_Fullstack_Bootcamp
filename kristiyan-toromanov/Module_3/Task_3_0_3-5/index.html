@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paid Time Off Form</title>
+</head>
+<body>
+    <form name="PTOrequest" action="process1.php" method="post">
+        <div class="employee_name">
+            <label>Employee Name:</label>
+            <input name="name_employee" placeholder="First and Last name" required>
+        </div>
+
+        <label for="project">Select the project you are from:</label>
+
+        <select name="projects" id="projects">
+            <option value="project1">Project 1</option>
+            <option value="project2">Project 2</option>
+            <option value="project3">Project 3</option>
+        </select>
+
+        <div class="start_date">
+            <label>Start Date:</label>
+            <input type="date" id="startDate" name="startDate" required>
+        </div>
+        <div class="end_date">
+            <label>End Date:</label>
+            <input type="date" id="endDate" name="endDate" required>
+        </div>
+        <div class="reason">
+            <label>Reason:</label>
+            <textarea rows = "5" cols = "60" name = "description">Enter details here...</textarea>
+        </div>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
